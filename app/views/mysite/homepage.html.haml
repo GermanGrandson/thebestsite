@@ -1,0 +1,142 @@
+.site-container
+
+  .my-stuff
+    .intro-message
+      .my-name If you code it,
+      .my-name2 They will come...
+    .menu-options
+      .about About
+      .projects Projects
+      .contact-me Contact
+
+  .about-me
+    .icon
+      %i.fa.fa-hand-spock-o
+    .about-me-title About Me
+    .about-me-subtitle "You miss 100% of the shots you don't take"
+    .my-info
+      .handsome
+
+      .about-me-info
+
+        .speech
+          .about-me-text
+            My name is German and I'm a Software Developer from Miami but currently living in the greatest place in the world, New York City! I love problem solving, exploring the many neighborhoods of this city, creating lasting memories with friends, eating Peruvian food, and pushing my body to its limits.
+            %br
+            %br
+            Feel free to explore my projects and reach out! I'm always eager to make new friends, and tackle new challenges.
+        .about-me-icons
+          .emoji
+            = image_tag "emoji.png"
+            .icon-title Software Developer
+            .icon-text I love to learn about new technologies, enjoy analyzing code, and building awesome apps that can make a difference
+          .globe
+            = image_tag "globe.png"
+            .icon-title World Traveler
+            .icon-text{style:'font-style:italic'} "Travel is the only thing you buy that makes you richer"
+            .icon-text I love the unknown and immersing myself in different cultures
+          .spartan
+            = image_tag "running.png"
+            .icon-title Competitor
+            .icon-text I've participated in numerous Spartan Races throughout the country and am always looking to challenge myself
+
+
+  .my-work
+    .icon
+      %i.fa.fa-desktop
+    .my-projects-title Projects & Skills
+    .my-projects-subtitle A sample of my work
+    .skills
+      %i.devicon-ruby-plain
+      %i.devicon-rails-plain
+      %i.devicon-javascript-plain
+      %i.devicon-angularjs-plain
+      %i.devicon-react-original
+      %i.devicon-python-plain
+      %i.devicon-php-plain
+
+    .my-projects
+      = link_to "http://tindcat.co", target: "_blank" do
+        .tincat
+          .project-info
+            .project-title TindCat
+          .project-description A Tinder-for-Cats web app made utilizing various APIs
+      = link_to "http://wynworld.herokuapp.com", target: "_blank" do
+        .wynworld
+          .project-info
+            .project-title Wynworld
+          .project-description A LinkedIn type application orginally made for Wyncode Academy to track past alumni
+      = link_to "https://github.com/GermanGrandson/Questionnaire_5000_Beta_Version_2", target: "_blank" do
+        .question
+          .project-info
+            .project-title ?aire
+          .project-description A Questionnaire app that allows you to create a personal questionnaire
+      = link_to "http://verbalvisualgerman.herokuapp.com", target: "_blank" do
+        .verbal
+          .project-info
+            .project-title Verbal + Visual
+          .project-description A Verbal + Visual mockup
+      = link_to "http://trndi.co", target: "_blank" do
+        .trndi
+          .project-info
+            .project-title Trndi
+          .project-description A web app made to locate the most popular night life locations in current time
+      = link_to "https://github.com/GermanGrandson/azul_apron", target: "_blank" do
+        .azul
+          .project-info
+            .project-title Azul Apron
+          .project-description A Blue Apron mockup
+      = link_to "http://straingth.herokuapp.com", target: "_blank" do
+        .straingth
+          .project-info
+            .project-title STRAINgth
+          .project-description A web app built with RoR utilizing a special API that provides information on medical marijuana
+      = link_to "https://github.com/GermanGrandson/tictothetoe", target: "_blank" do
+        .tictac
+          .project-info
+            .project-title Tic-to-Toe
+          .project-description A Tic Tac Toe script with a twist
+      = link_to "https://github.com/GermanGrandson/Voter-Sim", target: "_blank" do
+        .votersim
+          .project-info
+            .project-title Voter Sim
+          .project-description A Ruby script which allows you to simulate a Presidential election
+
+  .contact
+    .icon
+      %i.fa.fa-microphone
+    .contact-title Contact
+    .contact-subtitle Can I get yo numba
+    .contact-box
+      .map#map
+      .thanks
+        %span Wow you actually did it.
+        %br
+        %span Thanks for your message!
+      .form
+        = simple_form_for :message, url: message_path do |f|
+          .left
+            .message.name-input
+              = f.input :name, placeholder: 'Name'
+            .message.email-input
+              = f.input :email, placeholder: 'Email'
+          .right
+            .message.text
+              = f.input :text, as: :text, placeholder: "Write me a message. I promise on Syracuse Basketball that I'll respond!"
+          .submit Send Message
+          .error-message Please complete the form
+
+    .socials
+      = link_to "http://twitter.com/germangrandson", target:"_blank" do
+        .twitter
+          %i.fa.fa-twitter
+      = link_to "http://github.com/germangrandson", target:"_blank" do
+        .github
+          %i.fa.fa-github
+      = link_to "http://linkedin.com/in/germananieto", target:"_blank" do
+        .linkedin
+          %i.fa.fa-linkedin
+
+
+%script{:async => "", :defer => "defer", :src => "https://maps.googleapis.com/maps/api/js?key=AIzaSyCkgRQkTMwdpHYn-VaIAqasuF6hhTEwEEM&callback=initMap"}
+  :cdata

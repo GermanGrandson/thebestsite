@@ -1,0 +1,38 @@
+!!!
+%html{style: 'min-width:670px;'}
+  %body{style: 'min-width:670px;'}
+    %meta{:name => "viewport", :content => "width=device-width, initial-scale=1.0"}
+
+    %div{:name => 'background-holder', :style => 'background-color:#E7EFF2;'}
+
+      %div{:name => "logo_and_heading", :style => "width:100%;max-width:650px;margin:auto;margin-bottom:15px;margin-top:30px;padding-top:80px;"}
+        -# %img{:src => "https://dl.dropboxusercontent.com/u/20616288/email_techday_logo.png"}/
+
+      %div{:name => "container", :style => "width:100%;max-width:650px;margin:auto;background-color:white;"}
+        %div{:style => "padding:20px;"}
+
+          %div{:name => 'main-email-content'}
+            -# = raw @announcement.content
+
+          %div{:name => 'social'}
+            %p{:style => "font-size:11px;text-transform:uppercase;letter-spacing:2px;text-align:center;margin-top:35px;font-family:helvetica;"} GET YOUR NEWS FROM OUR SOCIAL FEEDS
+            %div{:name => "social_buttons", :style => "width:280px;margin:20px auto;"}
+              %table{align: "center;", style: "width:100%;"}
+                %tr
+                  %td
+                    -# %a{:href => "https://twitter.com/TechDayHQ", :style => "width:55px;height:55px;border-radius:50%;background:url('https://dl.dropboxusercontent.com/u/20616288/email_twitter_icon.png') center;display:block;margin: auto;"}
+                  %td
+                    -# %a{:href => "https://www.facebook.com/techdayhq", :style => "width:55px;height:55px;border-radius:50%;background:url('https://dl.dropboxusercontent.com/u/20616288/email_facebook_icon.png') center ;display:block;margin: auto;"}
+                  %td
+                    -# %a{:href => "https://www.linkedin.com/company/ny-tech-day", :style => "width:55px;height:55px;border-radius:50%;background:url('https://dl.dropboxusercontent.com/u/20616288/email_linkedin_icon.png') center;display:block;margin: auto;"}
+                  %td
+                    -# %a{:href => "https://plus.google.com/u/0/115655226086342959053", :style => "width:55px;height:55px;border-radius:50%;background:url('https://dl.dropboxusercontent.com/u/20616288/email_googleplus_icon.png') center;display:block;margin: auto;"}
+
+
+
+      %div{:name => 'unsubscribe', :style => "width:100%;max-width:650px;margin:auto;padding-bottom:45px;margin-top:10px;"}
+        %p{:style => 'font-size:9px;color:#666;text-transform:uppercase;padding:10px;font-family:helvetica;'}
+          This email is being sent to you from TechDay because you've subscribed to our mailing list or attended a TechDay event. To update your subscription preferences
+          -# = link_to 'click here', "http://techdayhq.com/subscription-preferences/#{@subscriber.id}"
+
+%input{type: 'hidden', name: 'unumber'}

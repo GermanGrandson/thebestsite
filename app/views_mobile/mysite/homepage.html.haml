@@ -1,0 +1,134 @@
+.site-container
+
+  .my-stuff-mobile
+    .intro-message
+      .my-name If you code it,
+      .my-name2 They will come...
+    .menu-options
+      .about-mobile About
+      .projects-mobile Projects
+      .contact-me-mobile Contact
+
+  .about-me-mobile
+    .icon
+      %i.fa.fa-hand-spock-o
+    .about-me-title About Me
+    .about-me-subtitle "You miss 100% of the shots you don't take"
+    .my-info
+      .speech
+        .about-me-text
+          My name is German and I'm a Software Developer from Miami but currently living in the greatest place in the world, New York City!
+          %br
+          %br
+          Feel free to explore my projects and reach out! I'm always eager to make new friends, and tackle new challenges.
+      .about-me-icons
+        .emoji
+          .icon-image
+            = image_tag "emoji.png"
+          .icon-info
+            .icon-title Software Developer
+            .icon-text I love to learn about new technologies, enjoy analyzing code, and building awesome apps that can make a difference
+        .globe
+          .icon-info
+            .icon-title World Traveler
+            .icon-text{style:'font-style:italic'} "Travel is the only thing you buy that makes you richer"
+            .icon-text I love the unknown and immersing myself in different cultures
+          .icon-image
+            = image_tag "globe.png"
+        .spartan
+          .icon-image
+            = image_tag "running.png"
+          .icon-info
+            .icon-title Competitor
+            .icon-text I've participated in numerous Spartan Races throughout the country and am always looking to challenge myself
+
+
+  .my-work-mobile
+    .icon
+      %i.fa.fa-desktop
+    .my-projects-title-mobile Projects & Skills
+    .my-projects-subtitle-mobile A sample of my work
+    .skills
+      %span.devicon-ruby-plain{id:'mobile'}
+      %span.devicon-rails-plain{id:'mobile'}
+      %span.devicon-javascript-plain{id:'mobile'}
+      %span.devicon-angularjs-plain{id:'mobile'}
+      %span.devicon-react-original{id:'mobile'}
+      %span.devicon-python-plain{id:'mobile'}
+      %span.devicon-php-plain{id:'mobile'}
+
+    .my-projects
+      = link_to "http://tindcat.co", target: "_blank" do
+        .project#tincat
+          .project-info
+            .project-title TindCat
+      = link_to "http://wynworld.herokuapp.com", target: "_blank" do
+        .project#wynworld
+          .project-info
+            .project-title Wynworld
+      = link_to "https://github.com/GermanGrandson/Questionnaire_5000_Beta_Version_2", target: "_blank" do
+        .project#question
+          .project-info
+            .project-title ?Aire
+      = link_to "http://verbalvisualgerman.herokuapp.com", target: "_blank" do
+        .project#verbal
+          .project-info
+            .project-title Verbal + Visual
+      = link_to "http://trndi.co", target: "_blank" do
+        .project#trndi
+          .project-info
+            .project-title Trndi
+      = link_to "https://github.com/GermanGrandson/azul_apron", target: "_blank" do
+        .project#azul
+          .project-info
+            .project-title Azul Apron
+      = link_to "http://straingth.herokuapp.com", target: "_blank" do
+        .project#straingth
+          .project-info
+            .project-title STRAINgth
+      = link_to "https://github.com/GermanGrandson/tictothetoe", target: "_blank" do
+        .project#tictac
+          .project-info
+            .project-title Tic-to-Toe
+      = link_to "https://github.com/GermanGrandson/Voter-Sim", target: "_blank" do
+        .project#votersim
+          .project-info
+            .project-title Voter Sim
+
+  .contact-mobile
+    .icon
+      %i.fa.fa-microphone
+    .contact-title Contact
+    .contact-subtitle Can I get yo numba
+    .contact-box
+      .thanks-mobile
+        %span Wow you actually did it.
+        %br
+        %span Thanks for your message!
+      .form-mobile
+        = simple_form_for :message, url: message_path do |f|
+          .left
+            .message.name-input
+              = f.input :name, placeholder: 'Name'
+            .message.email-input
+              = f.input :email, placeholder: 'Email'
+          .right
+            .message.text
+              = f.input :text, as: :text, placeholder: "Write me a message. I promise on Syracuse Basketball that I'll respond!"
+          .submit Send Message
+          .error-message Please complete the form
+
+    .socials
+      = link_to "http://twitter.com/germangrandson", target:"_blank" do
+        .twitter
+          %i.fa.fa-twitter
+      = link_to "http://github.com/germangrandson", target:"_blank" do
+        .github
+          %i.fa.fa-github
+      = link_to "http://linkedin.com/in/germananieto", target:"_blank" do
+        .linkedin
+          %i.fa.fa-linkedin
+
+
+%script{:async => "", :defer => "defer", :src => "https://maps.googleapis.com/maps/api/js?key=AIzaSyCkgRQkTMwdpHYn-VaIAqasuF6hhTEwEEM&callback=initMap"}
+  :cdata

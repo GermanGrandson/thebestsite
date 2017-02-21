@@ -1,0 +1,944 @@
+
+body
+  margin: 0px
+
+.site-container
+  font-size: 0
+
+  .icon
+    font-size: 40px
+    text-align: center
+    color: #fff
+
+  .my-stuff, .about-me, .contact
+    padding-left: 35px
+    padding-right: 35px
+    padding-top: 40px
+    padding-bottom: 40px
+
+  .my-stuff
+    background-image: asset-url("graffiti.jpg")
+    background-position: center
+    background-repeat: no-repeat
+    background-size: cover
+    padding-top: 45px
+    padding-bottom: 45px
+
+    .intro-message
+      font-size: 51px
+      color: #fff
+      font-family: 'Permanent Marker'
+      text-transform: capitalize
+
+    .menu-options
+      color: #fff
+      font-family: 'montserrat'
+      margin-top: 200px
+      font-weight: bold
+
+      .about
+        cursor: pointer
+        font-size: 40px
+        width: 30%
+        margin-left: 69%
+        margin-top: 15px
+        margin-bottom: 15px
+        -moz-transform: scale(1) rotate(0deg) translate(0px, 0px) skew(155deg, 0deg)
+        -webkit-transform: scale(1) rotate(0deg) translate(0px, 0px) skew(155deg, 0deg)
+        -o-transform: scale(1) rotate(0deg) translate(0px, 0px) skew(155deg, 0deg)
+        -ms-transform: scale(1) rotate(0deg) translate(0px, 0px) skew(155deg, 0deg)
+        transform: scale(1) rotate(0deg) translate(0px, 0px) skew(155deg, 0deg)
+
+      .projects
+        cursor: pointer
+        font-size: 60px
+        width: 30%
+        margin-left: 61%
+        margin-top: 15px
+        margin-bottom: 15px
+        -moz-transform: scale(1) rotate(0deg) translate(0px, 0px) skew(150deg, 0deg)
+        -webkit-transform: scale(1) rotate(0deg) translate(0px, 0px) skew(150deg, 0deg)
+        -o-transform: scale(1) rotate(0deg) translate(0px, 0px) skew(150deg, 0deg)
+        -ms-transform: scale(1) rotate(0deg) translate(0px, 0px) skew(150deg, 0deg)
+        transform: scale(1) rotate(0deg) translate(0px, 0px) skew(150deg, 0deg)
+
+      .contact-me
+        cursor: pointer
+        font-size: 100px
+        width: 30%
+        margin-left: 49%
+        margin-top: 15px
+        margin-bottom: 15px
+        -moz-transform: scale(1) rotate(0deg) translate(0px, 0px) skew(155deg, 0deg)
+        -webkit-transform: scale(1) rotate(0deg) translate(0px, 0px) skew(155deg, 0deg)
+        -o-transform: scale(1) rotate(0deg) translate(0px, 0px) skew(155deg, 0deg)
+        -ms-transform: scale(1) rotate(0deg) translate(0px, 0px) skew(155deg, 0deg)
+        transform: scale(1) rotate(0deg) translate(0px, 0px) skew(155deg, 0deg)
+
+      .about, .projects, .contact-me
+        transition: 300ms
+
+        &:hover
+          color: #E04444
+          transition: 300ms
+
+  .about-me
+    background-image: asset-url("bubble-green.png")
+    background-position: bottom
+    background-size: cover
+    color: white
+
+    .about-me-title
+      font-family: 'montserrat'
+      font-size: 60px
+      text-align: center
+      letter-spacing: 1px
+      font-weight: bold
+
+    .about-me-subtitle
+      font-size: 20px
+      text-align: center
+      color: #aaeded
+      font-family: 'maven pro'
+      padding-bottom: 40px
+      padding-top: 10px
+
+    .my-info
+
+      .handsome
+        background-image: url("goodlookin.jpg")
+        background-position: center
+        background-size: cover
+        width: 35%
+        height: 525px
+        display: inline-block
+        vertical-align: top
+        border-radius: 10px
+
+      .about-me-info
+        display: inline-block
+        width: 61%
+        vertical-align: top
+        margin-left: 40px
+
+        .speech
+          position: relative
+          padding: 20px
+          text-align: center
+          line-height: 28px
+          background-color: #fff
+          border: 8px solid #007E7E
+          -webkit-border-radius: 30px
+          -moz-border-radius: 30px
+          border-radius: 30px
+          -webkit-box-shadow: 2px 2px 4px #006363
+          -moz-box-shadow: 2px 2px 4px #006363
+          box-shadow: 2px 2px 4px #006363
+          // margin: auto
+
+          &::before
+            content: ' '
+            position: absolute
+            width: 0
+            height: 0
+            left: -56px
+            top: 170px
+            border: 25px solid
+            border-color: transparent #007E7E transparent transparent
+
+          &::after
+            content: ' '
+            position: absolute
+            width: 0
+            height: 0
+            left: -29px
+            top: 180px
+            border: 15px solid
+            border-color: transparent #fff transparent transparent
+
+        .about-me-text
+          font-size: 19px
+          font-family: 'maven pro'
+          text-align: center
+          color: black
+
+        .about-me-title
+          font-size: 30px
+          text-align: center
+
+        .about-me-icons
+          font-size: 0
+          margin-top: 30px
+
+          .emoji, .globe, .spartan
+            width: 33.3%
+            display: inline-block
+            vertical-align: top
+            text-align: center
+
+            img
+              height: 100px
+
+            .icon-title
+              padding: 5px
+              font-size: 20px
+              font-family: 'montserrat'
+
+            .icon-text
+              padding: 5px
+              font-size: 16px
+              font-family: 'maven pro'
+              letter-spacing: 1px
+              line-height: 20px
+
+  .my-work
+    background-image: asset-url('black.jpg')
+    padding-left: 25px
+    padding-right: 25px
+    padding-top: 40px
+    padding-bottom: 40px
+
+    .my-projects-title
+      font-family: 'montserrat'
+      font-size: 60px
+      text-align: center
+      letter-spacing: 1px
+      font-weight: bold
+      color: #fff
+
+    .my-projects-subtitle
+      font-size: 20px
+      text-align: center
+      color: #878787
+      font-family: 'maven pro'
+      padding-bottom: 40px
+      padding-top: 10px
+
+    .skills
+      text-align: center
+      font-size: 40px
+      margin: 0 auto
+
+      i:nth-child(even)
+        padding-left: 5%
+        padding-right: 5%
+        transition: 300ms
+        color: #fff
+
+        &:hover
+          font-size: 30px
+          transition: 300ms
+
+      i:nth-child(odd)
+        padding-left: 5%
+        padding-right: 5%
+        transition: 300ms
+        color: #E04444
+
+        &:hover
+          font-size: 30px
+          transition: 300ms
+
+    .my-projects
+
+      .tincat, .wynworld, .question, .verbal, .trndi, .azul, .straingth, .tictac, .votersim
+        height: 230px
+        width: 31.5%
+        display: inline-block
+        background-size: cover
+        background-repeat: no-repeat
+        border: solid #222 1px
+        cursor: pointer
+        vertical-align: top
+        font-size: 12px
+        color: #fff
+        text-align: center
+        margin: 10px
+        border-radius: 5px
+        background-color: #E04444
+
+
+        &:hover
+          .project-info, .project-description
+            display: none
+
+        .project-info
+          height: 160px
+
+          .project-title
+            padding-top: 50px
+            font-size: 50px
+            font-family: 'montserrat'
+
+        .project-description
+          height: 42px
+          font-size: 16px
+          font-family: 'maven pro'
+          color: #E04444
+          background-color: #fff
+          padding: 15px
+          border-radius: 0px 0px 5px 5px
+
+      .tincat
+        &:hover
+          transition: 300ms
+          background-image: asset-url("Tindcat.png")
+
+      .wynworld
+        &:hover
+          background-image: asset-url("Wynworld.png")
+
+      .question
+        &:hover
+          background-image: asset-url("questionnaire.png")
+
+      .verbal
+        &:hover
+          background-image: asset-url("Verbal.png")
+
+      .trndi
+        &:hover
+          background-image: asset-url("Trndi.png")
+
+      .azul
+        &:hover
+          background-image: asset-url("azulapron.png")
+
+      .straingth
+        &:hover
+          background-image: asset-url("Straingth.png")
+
+      .tictac
+        &:hover
+          background-image: asset-url("tictoe.png")
+
+      .votersim
+        &:hover
+          background-image: asset-url("votesim.png")
+
+  .contact
+    background-image: asset-url("bubble-blue.png")
+    background-position: bottom
+    background-size: cover
+    padding-bottom: 0px
+
+    .contact-title
+      font-family: "montserrat"
+      font-size: 60px
+      text-align: center
+      letter-spacing: 1px
+      font-weight: bold
+      color: #fff
+
+    .contact-subtitle
+      font-size: 20px
+      text-align: center
+      color: #4b85cc
+      font-family: 'maven pro'
+      padding-bottom: 40px
+      padding-top: 10px
+
+    .contact-box
+      font: 0
+
+      .map
+        height: 306px
+        display: inline-block
+        width: 33.3%
+        vertical-align: top
+
+      .thanks
+        color: #fff
+        font-size: 40px
+        text-align: center
+        font-family: 'maven pro'
+        width: 60%
+        padding: 90px 25px 0px 25px
+        display: none
+
+      .form
+        display: inline-block
+        width: 66.6%
+        vertical-align: top
+
+        .message
+
+          &.name-input, .email-input
+            margin: 0px 20px 55px 20px
+
+          .left, .right
+            display: inline-block
+            width: 49%
+            vertical-align: top
+
+          .left
+
+            input
+              width: 99%
+              height: 60px
+              background-color: transparent
+              color: #fff
+              border: solid #fff 2px
+              font-size: 20px
+              text-align: center
+              font-family: 'maven pro'
+
+              &::-webkit-input-placeholder
+                color: #fff
+
+              &::-moz-placeholder
+                color: #fff
+
+              &:-ms-input-placeholder
+                color: #fff
+
+              &:-moz-placeholder
+                color: #fff
+
+          .right
+            height: 100px
+
+            textarea
+              background-color: transparent
+              height: 300px
+              width: 100%
+              margin-bottom: 20px
+              color: #fff
+              border: solid #fff 2px
+              font-size: 20px
+              font-family: 'maven pro'
+
+              &::-webkit-input-placeholder
+                color: #fff
+                text-align: center
+                padding-top: 120px
+                padding-left: 20px
+                padding-right: 20px
+
+              &::-moz-placeholder
+                color: #fff
+                text-align: center
+                padding-top: 120px
+                padding-left: 20px
+                padding-right: 20px
+
+              &:-ms-input-placeholder
+                color: #fff
+                text-align: center
+                padding-top: 120px
+                padding-left: 20px
+                padding-right: 20px
+
+              &:-moz-placeholder
+                color: #fff
+                text-align: center
+                padding-top: 120px
+                padding-left: 20px
+                padding-right: 20px
+
+          .submit
+            width: 44%
+            margin-left: 20px
+            border: solid #fff 2px
+            height: 45px
+            cursor: pointer
+            color: #fff
+            font-size: 20px
+            text-align: center
+            padding-top: 15px
+            font-family: 'maven pro'
+            transition: 300ms
+
+            &:hover
+              color: #E04444
+              transition: 300ms
+
+          .error-message
+            color: #E04444
+            margin-left: 20px
+            margin-top: 20px
+            font-size: 20px
+            font-family: 'maven pro'
+            width: 44%
+            text-align: center
+            display: none
+
+    .socials
+      font-size: 0
+      margin-top: 66px
+
+      .github, .twitter, .linkedin
+        font-size: 60px
+        color: #fff
+        width: 33.3%
+        height: 100px
+        display: inline-block
+        text-align: center
+        cursor: pointer
+        vertical-align: top
+
+      .twitter
+        background-color: #0084b4
+        transition: 300ms
+
+        &:hover
+          background-color: #00a8e5
+          transition: 300ms
+
+        i
+          margin-top: 20px
+
+      .github
+        background-color: #24292E
+        transition: 300ms
+
+        &:hover
+          background-color: #3b4249
+          transition: 300ms
+
+        i
+          margin-top: 20px
+
+      .linkedin
+        background-color: #4875B4
+        transition: 300ms
+
+        &:hover
+          background-color: #568cd8
+          transition: 300ms
+
+        i
+          margin-top: 20px
+
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px)
+
+
+  body
+    margin: 0px
+
+  .site-container
+    font-size: 0
+
+    .icon
+      font-size: 80px
+      text-align: center
+      color: #fff
+
+    .my-stuff-mobile, .about-me-mobile, .my-work-mobile, .contact-mobile
+      padding-left: 40px
+      padding-right: 40px
+      padding-top: 80px
+      padding-bottom: 80px
+
+    .my-stuff-mobile
+      background-image: asset-url("japan.jpg")
+      background-position: center
+      background-repeat: no-repeat
+      background-size: cover
+      padding-top: 50px
+      padding-bottom: 50px
+
+      .intro-message
+        font-size: 90px
+        color: #fff
+        font-family: 'Permanent Marker'
+        text-transform: capitalize
+        text-align: center
+        margin-top: 150px
+
+      .menu-options
+        color: #fff
+        font-family: 'montserrat'
+        margin: 0 auto
+        margin-top: 420px
+        font-weight: bold
+        width: 80%
+        border-radius: 10px
+
+        .about-mobile, .projects-mobile, .contact-me-mobile
+          cursor: pointer
+          font-size: 150px
+          border: solid #007E7E 4px
+          text-align: center
+          margin-top: 50px
+          margin-bottom: 50px
+          border-radius: 10px
+          padding: 15px
+          transition: 300ms
+          background-color: transparentize(#007E7E, 0.8)
+
+    .about-me-mobile
+      background-image: asset-url("bubble-green.png")
+      background-position: bottom
+      background-size: cover
+      color: white
+
+      .about-me-title
+        font-family: 'montserrat'
+        font-size: 80px
+        text-align: center
+        letter-spacing: 1px
+        font-weight: bold
+
+      .about-me-subtitle
+        font-size: 15px
+        text-align: center
+        color: #aaeded
+        font-family: 'maven pro'
+        padding-bottom: 80px
+        padding-top: 10px
+
+      .my-info
+
+        .handsome
+          background-image: url("goodlookin.jpg")
+          background-position: center
+          background-size: cover
+          width: 50%
+          height: 350px
+          border-radius: 10px
+          margin: 0 auto
+
+        .speech
+          position: relative
+          padding: 20px
+          text-align: center
+          line-height: 50px
+          background-color: #fff
+          border: 8px solid #007E7E
+          -webkit-border-radius: 30px
+          -moz-border-radius: 30px
+          border-radius: 30px
+          -webkit-box-shadow: 2px 2px 4px #006363
+          -moz-box-shadow: 2px 2px 4px #006363
+          box-shadow: 2px 2px 4px #006363
+
+          &::before
+            content: ' '
+            position: absolute
+            width: 0
+            height: 0
+            left: 105px
+            top: 544px
+            border: 45px solid
+            border-color: #007E7E transparent transparent transparent
+
+          &::after
+            content: ' '
+            position: absolute
+            width: 0
+            height: 0
+            left: 116px
+            top: 534px
+            border: 35px solid
+            border-color: #fff transparent transparent transparent
+
+        .about-me-text
+          font-size: 18px
+          font-family: 'maven pro'
+          text-align: center
+          color: black
+
+        .about-me-title
+          font-size: 30px
+          text-align: center
+
+        .about-me-icons
+          font-size: 0
+          margin-top: 30px
+
+          .emoji
+            margin-top: 90px
+
+          .globe, .spartan
+            margin-top: 60px
+
+          .emoji, .globe, .spartan
+
+            .icon-image
+              display: inline-block
+              width: 35%
+              text-align: center
+              vertical-align: top
+
+              img
+                height: 240px
+
+            .icon-info
+              display: inline-block
+              width: 65%
+
+              .icon-title
+                padding: 5px
+                font-size: 50px
+                font-family: 'montserrat'
+                text-align: center
+
+              .icon-text
+                padding: 5px
+                font-size: 35px
+                font-family: 'maven pro'
+                letter-spacing: 1px
+                line-height: 40px
+                text-align: center
+
+    .my-work-mobile
+      background-image: asset-url('black.jpg')
+      // height: 1000px
+
+      .my-projects-title-mobile
+        font-family: 'montserrat'
+        font-size: 80px
+        text-align: center
+        letter-spacing: 1px
+        font-weight: bold
+        color: #fff
+
+      .my-projects-subtitle-mobile
+        font-size: 15px
+        text-align: center
+        color: #878787
+        font-family: 'maven pro'
+        padding-bottom: 80px
+        padding-top: 10px
+
+      .skills
+        text-align: center
+        font-size: 60px
+        margin: 0 auto
+
+        span:nth-child(even)
+          transition: 300ms
+          margin: 2%
+          color: #fff
+
+          &:hover
+            font-size: 30px
+            transition: 300ms
+
+        span:nth-child(odd)
+          transition: 300ms
+          color: #E04444
+          margin: 2%
+
+          &:hover
+            font-size: 30px
+            transition: 300ms
+
+      .my-projects
+        text-align: center
+
+        .project
+          height: 230px
+          width: 47.5%
+          display: inline-block
+          background-size: cover
+          background-repeat: no-repeat
+          border: solid #222 1px
+          cursor: pointer
+          vertical-align: top
+          font-size: 12px
+          color: #fff
+          text-align: center
+          margin: 10px
+          border-radius: 5px
+          background-color: #E04444
+
+          .project-info
+            height: 160px
+
+            .project-title
+              padding-top: 20px
+              padding-bottom: 20px
+              font-size: 50px
+              font-family: 'montserrat'
+              background-color: #fff
+              color: #E04444
+              margin-top: 60px
+
+          .project-description
+            height: 42px
+            font-size: 16px
+            font-family: 'maven pro'
+            color: #E04444
+            background-color: #fff
+            padding: 15px
+            border-radius: 0px 0px 5px 5px
+
+    .contact-mobile
+      background-image: asset-url("bubble-blue.png")
+      background-position: bottom
+      background-size: cover
+      padding-bottom: 0px
+
+      .contact-title
+        font-family: "montserrat"
+        font-size: 80px
+        text-align: center
+        letter-spacing: 1px
+        font-weight: bold
+        color: #fff
+
+      .contact-subtitle
+        font-size: 15px
+        text-align: center
+        color: #4b85cc
+        font-family: 'maven pro'
+        padding-bottom: 80px
+        padding-top: 10px
+
+      .contact-box
+        font: 0
+
+        .map
+          height: 306px
+          display: inline-block
+          width: 33.3%
+          vertical-align: top
+
+        .thanks-mobile
+          color: #fff
+          font-size: 40px
+          text-align: center
+          font-family: 'maven pro'
+          width: 100%
+          padding: 90px 25px 0px 25px
+          display: none
+
+        .form-mobile
+
+          .message
+
+            &.name-input, .email-input
+              margin: 0px 20px 55px 0px
+
+            .left, .right
+              display: inline-block
+              width: 49%
+              vertical-align: top
+
+            .left
+              height: 235px
+
+              input
+                width: 99%
+                height: 60px
+                background-color: transparent
+                color: #fff
+                border: solid #fff 2px
+                font-size: 40px
+                text-align: center
+                font-family: 'maven pro'
+
+                &::-webkit-input-placeholder
+                  color: #fff
+
+                &::-moz-placeholder
+                  color: #fff
+
+                &:-ms-input-placeholder
+                  color: #fff
+
+                &:-moz-placeholder
+                  color: #fff
+
+            .right
+              height: 100px
+
+              textarea
+                background-color: transparent
+                height: 300px
+                width: 100%
+                margin-bottom: 20px
+                color: #fff
+                border: solid #fff 2px
+                font-size: 40px
+                font-family: 'maven pro'
+
+                &::-webkit-input-placeholder
+                  color: #fff
+                  text-align: center
+                  padding-top: 50px
+                  padding-left: 20px
+                  padding-right: 20px
+
+                &::-moz-placeholder
+                  color: #fff
+                  text-align: center
+                  padding-top: 50px
+                  padding-left: 20px
+                  padding-right: 20px
+
+                &:-ms-input-placeholder
+                  color: #fff
+                  text-align: center
+                  padding-top: 50px
+                  padding-left: 20px
+                  padding-right: 20px
+
+                &:-moz-placeholder
+                  color: #fff
+                  text-align: center
+                  padding-top: 50px
+                  padding-left: 20px
+                  padding-right: 20px
+
+            .submit
+              width: 46.6%
+              border: solid #fff 2px
+              height: 47px
+              cursor: pointer
+              color: #fff
+              font-size: 40px
+              text-align: center
+              padding-top: 10px
+              padding-bottom: 10px
+              font-family: 'maven pro'
+              transition: 300ms
+
+            .error-message
+              color: #E04444
+              margin-left: 20px
+              margin-top: 20px
+              font-size: 20px
+              font-family: 'maven pro'
+              text-align: center
+              display: none
+
+      .socials
+        font-size: 0
+        margin-top: 80px
+        margin-left: -40px
+        width: 109%
+
+        .github, .twitter, .linkedin
+          font-size: 90px
+          color: #fff
+          width: 33.3%
+          height: 130px
+          display: inline-block
+          text-align: center
+          cursor: pointer
+          vertical-align: top
+
+        .twitter
+          background-color: #0084b4
+          transition: 300ms
+
+          i
+            margin-top: 20px
+
+        .github
+          background-color: #24292E
+          transition: 300ms
+
+          i
+            margin-top: 20px
+
+        .linkedin
+          background-color: #4875B4
+          transition: 300ms
+
+          i
+            margin-top: 20px
