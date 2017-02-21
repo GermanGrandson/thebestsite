@@ -1,0 +1,1067 @@
+/* line 2, /Users/GrandsonBoom/Desktop/Brogrammer/mySite/app/assets/stylesheets/mysite/homepage.css.sass */
+body {
+  margin: 0px;
+}
+
+/* line 5, /Users/GrandsonBoom/Desktop/Brogrammer/mySite/app/assets/stylesheets/mysite/homepage.css.sass */
+.site-container {
+  font-size: 0;
+}
+/* line 8, /Users/GrandsonBoom/Desktop/Brogrammer/mySite/app/assets/stylesheets/mysite/homepage.css.sass */
+.site-container .icon {
+  font-size: 40px;
+  text-align: center;
+  color: #fff;
+}
+/* line 13, /Users/GrandsonBoom/Desktop/Brogrammer/mySite/app/assets/stylesheets/mysite/homepage.css.sass */
+.site-container .my-stuff, .site-container .about-me, .site-container .contact {
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+/* line 19, /Users/GrandsonBoom/Desktop/Brogrammer/mySite/app/assets/stylesheets/mysite/homepage.css.sass */
+.site-container .my-stuff {
+  background-image: url(/assets/graffiti-877604cdfada4d831bc11bcc84018f5d49e2fefc577aa331c00bd8a9b3de7e98.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 45px;
+  padding-bottom: 45px;
+}
+/* line 27, /Users/GrandsonBoom/Desktop/Brogrammer/mySite/app/assets/stylesheets/mysite/homepage.css.sass */
+.site-container .my-stuff .intro-message {
+  font-size: 51px;
+  color: #fff;
+  font-family: "Permanent Marker";
+  text-transform: capitalize;
+}
+/* line 33, /Users/GrandsonBoom/Desktop/Brogrammer/mySite/app/assets/stylesheets/mysite/homepage.css.sass */
+.site-container .my-stuff .menu-options {
+  color: #fff;
+  font-family: "montserrat";
+  margin-top: 200px;
+  font-weight: bold;
+}
+/* line 39, /Users/GrandsonBoom/Desktop/Brogrammer/mySite/app/assets/stylesheets/mysite/homepage.css.sass */
+.site-container .my-stuff .menu-options .about {
+  cursor: pointer;
+  font-size: 40px;
+  width: 30%;
+  margin-left: 69%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  -moz-transform: scale(1) rotate(0deg) translate(0px, 0px) skew(155deg, 0deg);
+  -webkit-transform: scale(1) rotate(0deg) translate(0px, 0px) skew(155deg, 0deg);
+  -o-transform: scale(1) rotate(0deg) translate(0px, 0px) skew(155deg, 0deg);
+  -ms-transform: scale(1) rotate(0deg) translate(0px, 0px) skew(155deg, 0deg);
+  transform: scale(1) rotate(0deg) translate(0px, 0px) skew(155deg, 0deg);
+}
+/* line 52, /Users/GrandsonBoom/Desktop/Brogrammer/mySite/app/assets/stylesheets/mysite/homepage.css.sass */
+.site-container .my-stuff .menu-options .projects {
+  cursor: pointer;
+  font-size: 60px;
+  width: 30%;
+  margin-left: 61%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  -moz-transform: scale(1) rotate(0deg) translate(0px, 0px) skew(150deg, 0deg);
+  -webkit-transform: scale(1) rotate(0deg) translate(0px, 0px) skew(150deg, 0deg);
+  -o-transform: scale(1) rotate(0deg) translate(0px, 0px) skew(150deg, 0deg);
+  -ms-transform: scale(1) rotate(0deg) translate(0px, 0px) skew(150deg, 0deg);
+  transform: scale(1) rotate(0deg) translate(0px, 0px) skew(150deg, 0deg);
+}
+/* line 65, /Users/GrandsonBoom/Desktop/Brogrammer/mySite/app/assets/stylesheets/mysite/homepage.css.sass */
+.site-container .my-stuff .menu-options .contact-me {
+  cursor: pointer;
+  font-size: 100px;
+  width: 30%;
+  margin-left: 49%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  -moz-transform: scale(1) rotate(0deg) translate(0px, 0px) skew(155deg, 0deg);
+  -webkit-transform: scale(1) rotate(0deg) translate(0px, 0px) skew(155deg, 0deg);
+  -o-transform: scale(1) rotate(0deg) translate(0px, 0px) skew(155deg, 0deg);
+  -ms-transform: scale(1) rotate(0deg) translate(0px, 0px) skew(155deg, 0deg);
+  transform: scale(1) rotate(0deg) translate(0px, 0px) skew(155deg, 0deg);
+}
+/* line 78, /Users/GrandsonBoom/Desktop/Brogrammer/mySite/app/assets/stylesheets/mysite/homepage.css.sass */
+.site-container .my-stuff .menu-options .about, .site-container .my-stuff .menu-options .projects, .site-container .my-stuff .menu-options .contact-me {
+  transition: 300ms;
+}
+/* line 81, /Users/GrandsonBoom/Desktop/Brogrammer/mySite/app/assets/stylesheets/mysite/homepage.css.sass */
+.site-container .my-stuff .menu-options .about:hover, .site-container .my-stuff .menu-options .projects:hover, .site-container .my-stuff .menu-options .contact-me:hover {
+  color: #E04444;
+  transition: 300ms;
+}
+/* line 85, /Users/GrandsonBoom/Desktop/Brogrammer/mySite/app/assets/stylesheets/mysite/homepage.css.sass */
+.site-container .about-me {
+  background-image: url(/assets/bubble-green-917a8edd1a996b5f8f2cce289159d4cc55187f8fbfa421d16da353e7ea30725a.png);
+  background-position: bottom;
+  background-size: cover;
+  color: white;
+}
+/* line 91, /Users/GrandsonBoom/Desktop/Brogrammer/mySite/app/assets/stylesheets/mysite/homepage.css.sass */
+.site-container .about-me .about-me-title {
+  font-family: "montserrat";
+  font-size: 60px;
+  text-align: center;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+/* line 98, /Users/GrandsonBoom/Desktop/Brogrammer/mySite/app/assets/stylesheets/mysite/homepage.css.sass */
+.site-container .about-me .about-me-subtitle {
+  font-size: 20px;
+  text-align: center;
+  color: #aaeded;
+  font-family: "maven pro";
+  padding-bottom: 40px;
+  padding-top: 10px;
+}
+/* line 108, /Users/GrandsonBoom/Desktop/Brogrammer/mySite/app/assets/stylesheets/mysite/homepage.css.sass */
+.site-container .about-me .my-info .handsome {
+  background-image: url("goodlookin.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 35%;
+  height: 525px;
+  display: inline-block;
+  vertical-align: top;
+  border-radius: 10px;
+}
+/* line 118, /Users/GrandsonBoom/Desktop/Brogrammer/mySite/app/assets/stylesheets/mysite/homepage.css.sass */
+.site-container .about-me .my-info .about-me-info {
+  display: inline-block;
+  width: 61%;
+  vertical-align: top;
+  margin-left: 40px;
+}
+/* line 124, /Users/GrandsonBoom/Desktop/Brogrammer/mySite/app/assets/stylesheets/mysite/homepage.css.sass */
+.site-container .about-me .my-info .about-me-info .speech {
+  position: relative;
+  padding: 20px;
+  text-align: center;
+  line-height: 28px;
+  background-color: #fff;
+  border: 8px solid #007E7E;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
+  -webkit-box-shadow: 2px 2px 4px #006363;
+  -moz-box-shadow: 2px 2px 4px #006363;
+  box-shadow: 2px 2px 4px #006363;
+}
+/* line 139, /Users/GrandsonBoom/Desktop/Brogrammer/mySite/app/assets/stylesheets/mysite/homepage.css.sass */
+.site-container .about-me .my-info .about-me-info .speech::before {
+  content: " ";
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: -56px;
+  top: 170px;
+  border: 25px solid;
+  border-color: transparent #007E7E transparent transparent;
+}
+/* line 149, /Users/GrandsonBoom/Desktop/Brogrammer/mySite/app/assets/stylesheets/mysite/homepage.css.sass */
+.site-container .about-me .my-info .about-me-info .speech::after {
+  content: " ";
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: -29px;
+  top: 180px;
+  border: 15px solid;
+  border-color: transparent #fff transparent transparent;
+}
+/* line 159, /Users/GrandsonBoom/Desktop/Brogrammer/mySite/app/assets/stylesheets/mysite/homepage.css.sass */
+.site-container .about-me .my-info .about-me-info .about-me-text {
+  font-size: 19px;
+  font-family: "maven pro";
+  text-align: center;
+  color: black;
+}
+/* line 165, /Users/GrandsonBoom/Desktop/Brogrammer/mySite/app/assets/stylesheets/mysite/homepage.css.sass */
+.site-container .about-me .my-info .about-me-info .about-me-title {
+  font-size: 30px;
+  text-align: center;
+}
+/* line 169, /Users/GrandsonBoom/Desktop/Brogrammer/mySite/app/assets/stylesheets/mysite/homepage.css.sass */
+.site-container .about-me .my-info .about-me-info .about-me-icons {
+  font-size: 0;
+  margin-top: 30px;
+}
+/* line 173, /Users/GrandsonBoom/Desktop/Brogrammer/mySite/app/assets/stylesheets/mysite/homepage.css.sass */
+.site-container .about-me .my-info .about-me-info .about-me-icons .emoji, .site-container .about-me .my-info .about-me-info .about-me-icons .globe, .site-container .about-me .my-info .about-me-info .about-me-icons .spartan {
+  width: 33.3%;
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+}
+/* line 179, /Users/GrandsonBoom/Desktop/Brogrammer/mySite/app/assets/stylesheets/mysite/homepage.css.sass */
+.site-container .about-me .my-info .about-me-info .about-me-icons .emoji img, .site-container .about-me .my-info .about-me-info .about-me-icons .globe img, .site-container .about-me .my-info .about-me-info .about-me-icons .spartan img {
+  height: 100px;
+}
+/* line 182, /Users/GrandsonBoom/Desktop/Brogrammer/mySite/app/assets/stylesheets/mysite/homepage.css.sass */
+.site-container .about-me .my-info .about-me-info .about-me-icons .emoji .icon-title, .site-container .about-me .my-info .about-me-info .about-me-icons .globe .icon-title, .site-container .about-me .my-info .about-me-info .about-me-icons .spartan .icon-title {
+  padding: 5px;
+  font-size: 20px;
+  font-family: "montserrat";
+}
+/* line 187, /Users/GrandsonBoom/Desktop/Brogrammer/mySite/app/assets/stylesheets/mysite/homepage.css.sass */
+.site-container .about-me .my-info .about-me-info .about-me-icons .emoji .icon-text, .site-container .about-me .my-info .about-me-info .about-me-icons .globe .icon-text, .site-container .about-me .my-info .about-me-info .about-me-icons .spartan .icon-text {
+  padding: 5px;
+  font-size: 16px;
+  font-family: "maven pro";
+  letter-spacing: 1px;
+  line-height: 20px;
+}
+/* line 194, /Users/GrandsonBoom/Desktop/Brogrammer/mySite/app/assets/stylesheets/mysite/homepage.css.sass */
+.site-container .my-work {
+  background-image: url(/assets/black-29a54959ebdeab415931b78ea5db730e822900b08b17b813efaaed3ac3676950.jpg);
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+/* line 201, /Users/GrandsonBoom/Desktop/Brogrammer/mySite/app/assets/stylesheets/mysite/homepage.css.sass */
+.site-container .my-work .my-projects-title {
+  font-family: "montserrat";
+  font-size: 60px;
+  text-align: center;
+  letter-spacing: 1px;
+  font-weight: bold;
+  color: #fff;
+}
+/* line 209, /Users/GrandsonBoom/Desktop/Brogrammer/mySite/app/assets/stylesheets/mysite/homepage.css.sass */
+.site-container .my-work .my-projects-subtitle {
+  font-size: 20px;
+  text-align: center;
+  color: #878787;
+  font-family: "maven pro";
+  padding-bottom: 40px;
+  padding-top: 10px;
+}
+/* line 217, /Users/GrandsonBoom/Desktop/Brogrammer/mySite/app/assets/stylesheets/mysite/homepage.css.sass */
+.site-container .my-work .skills {
+  text-align: center;
+  font-size: 40px;
+  margin: 0 auto;
+}
+/* line 222, /Users/GrandsonBoom/Desktop/Brogrammer/mySite/app/assets/stylesheets/mysite/homepage.css.sass */
+.site-container .my-work .skills i:nth-child(even) {
+  padding-left: 5%;
+  padding-right: 5%;
+  transition: 300ms;
+  color: #fff;
+}
+/* line 228, /Users/GrandsonBoom/Desktop/Brogrammer/mySite/app/assets/stylesheets/mysite/homepage.css.sass */
+.site-container .my-work .skills i:nth-child(even):hover {
+  font-size: 30px;
+  transition: 300ms;
+}
+/* line 232, /Users/GrandsonBoom/Desktop/Brogrammer/mySite/app/assets/stylesheets/mysite/homepage.css.sass */
+.site-container .my-work .skills i:nth-child(odd) {
+  padding-left: 5%;
+  padding-right: 5%;
+  transition: 300ms;
+  color: #E04444;
+}
+/* line 238, /Users/GrandsonBoom/Desktop/Brogrammer/mySite/app/assets/stylesheets/mysite/homepage.css.sass */
+.site-container .my-work .skills i:nth-child(odd):hover {
+  font-size: 30px;
+  transition: 300ms;
+}
+/* line 244, /Users/GrandsonBoom/Desktop/Brogrammer/mySite/app/assets/stylesheets/mysite/homepage.css.sass */
+.site-container .my-work .my-projects .tincat, .site-container .my-work .my-projects .wynworld, .site-container .my-work .my-projects .question, .site-container .my-work .my-projects .verbal, .site-container .my-work .my-projects .trndi, .site-container .my-work .my-projects .azul, .site-container .my-work .my-projects .straingth, .site-container .my-work .my-projects .tictac, .site-container .my-work .my-projects .votersim {
+  height: 230px;
+  width: 31.5%;
+  display: inline-block;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: solid #222 1px;
+  cursor: pointer;
+  vertical-align: top;
+  font-size: 12px;
+  color: #fff;
+  text-align: center;
+  margin: 10px;
+  border-radius: 5px;
+  background-color: #E04444;
+}
+/* line 262, /Users/GrandsonBoom/Desktop/Brogrammer/mySite/app/assets/stylesheets/mysite/homepage.css.sass */
+.site-container .my-work .my-projects .tincat:hover .project-info, .site-container .my-work .my-projects .tincat:hover .project-description, .site-container .my-work .my-projects .wynworld:hover .project-info, .site-container .my-work .my-projects .wynworld:hover .project-description, .site-container .my-work .my-projects .question:hover .project-info, .site-container .my-work .my-projects .question:hover .project-description, .site-container .my-work .my-projects .verbal:hover .project-info, .site-container .my-work .my-projects .verbal:hover .project-description, .site-container .my-work .my-projects .trndi:hover .project-info, .site-container .my-work .my-projects .trndi:hover .project-description, .site-container .my-work .my-projects .azul:hover .project-info, .site-container .my-work .my-projects .azul:hover .project-description, .site-container .my-work .my-projects .straingth:hover .project-info, .site-container .my-work .my-projects .straingth:hover .project-description, .site-container .my-work .my-projects .tictac:hover .project-info, .site-container .my-work .my-projects .tictac:hover .project-description, .site-container .my-work .my-projects .votersim:hover .project-info, .site-container .my-work .my-projects .votersim:hover .project-description {
+  display: none;
+}
+/* line 265, /Users/GrandsonBoom/Desktop/Brogrammer/mySite/app/assets/stylesheets/mysite/homepage.css.sass */
+.site-container .my-work .my-projects .tincat .project-info, .site-container .my-work .my-projects .wynworld .project-info, .site-container .my-work .my-projects .question .project-info, .site-container .my-work .my-projects .verbal .project-info, .site-container .my-work .my-projects .trndi .project-info, .site-container .my-work .my-projects .azul .project-info, .site-container .my-work .my-projects .straingth .project-info, .site-container .my-work .my-projects .tictac .project-info, .site-container .my-work .my-projects .votersim .project-info {
+  height: 160px;
+}
+/* line 268, /Users/GrandsonBoom/Desktop/Brogrammer/mySite/app/assets/stylesheets/mysite/homepage.css.sass */
+.site-container .my-work .my-projects .tincat .project-info .project-title, .site-container .my-work .my-projects .wynworld .project-info .project-title, .site-container .my-work .my-projects .question .project-info .project-title, .site-container .my-work .my-projects .verbal .project-info .project-title, .site-container .my-work .my-projects .trndi .project-info .project-title, .site-container .my-work .my-projects .azul .project-info .project-title, .site-container .my-work .my-projects .straingth .project-info .project-title, .site-container .my-work .my-projects .tictac .project-info .project-title, .site-container .my-work .my-projects .votersim .project-info .project-title {
+  padding-top: 50px;
+  font-size: 50px;
+  font-family: "montserrat";
+}
+/* line 273, /Users/GrandsonBoom/Desktop/Brogrammer/mySite/app/assets/stylesheets/mysite/homepage.css.sass */
+.site-container .my-work .my-projects .tincat .project-description, .site-container .my-work .my-projects .wynworld .project-description, .site-container .my-work .my-projects .question .project-description, .site-container .my-work .my-projects .verbal .project-description, .site-container .my-work .my-projects .trndi .project-description, .site-container .my-work .my-projects .azul .project-description, .site-container .my-work .my-projects .straingth .project-description, .site-container .my-work .my-projects .tictac .project-description, .site-container .my-work .my-projects .votersim .project-description {
+  height: 42px;
+  font-size: 16px;
+  font-family: "maven pro";
+  color: #E04444;
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 0px 0px 5px 5px;
+}
+/* line 283, /Users/GrandsonBoom/Desktop/Brogrammer/mySite/app/assets/stylesheets/mysite/homepage.css.sass */
+.site-container .my-work .my-projects .tincat:hover {
+  transition: 300ms;
+  background-image: url(/assets/Tindcat-691b101a24e3012880ad2d96e77572bbc82a6b23c61db132c83ba5543e9f5e7a.png);
+}
+/* line 288, /Users/GrandsonBoom/Desktop/Brogrammer/mySite/app/assets/stylesheets/mysite/homepage.css.sass */
+.site-container .my-work .my-projects .wynworld:hover {
+  background-image: url(/assets/Wynworld-548850dec71a869bbed59d589c06701bae37a9b0bb3402659c9e61296b3bd444.png);
+}
+/* line 292, /Users/GrandsonBoom/Desktop/Brogrammer/mySite/app/assets/stylesheets/mysite/homepage.css.sass */
+.site-container .my-work .my-projects .question:hover {
+  background-image: url(/assets/questionnaire-7876796a013e57767deb23496f2f4e2688d16bfc9e38dc918e5cdf510c0dd461.png);
+}
+/* line 296, /Users/GrandsonBoom/Desktop/Brogrammer/mySite/app/assets/stylesheets/mysite/homepage.css.sass */
+.site-container .my-work .my-projects .verbal:hover {
+  background-image: url(/assets/Verbal-461dabb3dd48c1f43aedf7412dc0150fd2d4ef04296fdb18bc4490b68dcd7dc3.png);
+}
+/* line 300, /Users/GrandsonBoom/Desktop/Brogrammer/mySite/app/assets/stylesheets/mysite/homepage.css.sass */
+.site-container .my-work .my-projects .trndi:hover {
+  background-image: url(/assets/Trndi-1c44ac132c000f90b9dec0c6c0c94b4283a92adaba619a3871ad23968b5ad2c9.png);
+}
+/* line 304, /Users/GrandsonBoom/Desktop/Brogrammer/mySite/app/assets/stylesheets/mysite/homepage.css.sass */
+.site-container .my-work .my-projects .azul:hover {
+  background-image: url(/assets/azulapron-4650a14530d5ba270ce8fb71b598c4c043cd0d8cf4d304c53c19d7548e0e6e8d.png);
+}
+/* line 308, /Users/GrandsonBoom/Desktop/Brogrammer/mySite/app/assets/stylesheets/mysite/homepage.css.sass */
+.site-container .my-work .my-projects .straingth:hover {
+  background-image: url(/assets/Straingth-b4178b2876d847620efd0aeacbda752fe9afde6357dfe1170f004b86c427bc0e.png);
+}
+/* line 312, /Users/GrandsonBoom/Desktop/Brogrammer/mySite/app/assets/stylesheets/mysite/homepage.css.sass */
+.site-container .my-work .my-projects .tictac:hover {
+  background-image: url(/assets/tictoe-991f01636872c61ffbe014c8078d1ad62d2b76fe122844eee7c9366764fbee0d.png);
+}
+/* line 316, /Users/GrandsonBoom/Desktop/Brogrammer/mySite/app/assets/stylesheets/mysite/homepage.css.sass */
+.site-container .my-work .my-projects .votersim:hover {
+  background-image: url(/assets/votesim-67c3de894bb3059168aba9741812bb66419a38692223e3319187b85eb82b4372.png);
+}
+/* line 319, /Users/GrandsonBoom/Desktop/Brogrammer/mySite/app/assets/stylesheets/mysite/homepage.css.sass */
+.site-container .contact {
+  background-image: url(/assets/bubble-blue-ab04c703e8ef847462dc52431283445809f6951f5aa4beb7e5f4320d3e1102dc.png);
+  background-position: bottom;
+  background-size: cover;
+  padding-bottom: 0px;
+}
+/* line 325, /Users/GrandsonBoom/Desktop/Brogrammer/mySite/app/assets/stylesheets/mysite/homepage.css.sass */
+.site-container .contact .contact-title {
+  font-family: "montserrat";
+  font-size: 60px;
+  text-align: center;
+  letter-spacing: 1px;
+  font-weight: bold;
+  color: #fff;
+}
+/* line 333, /Users/GrandsonBoom/Desktop/Brogrammer/mySite/app/assets/stylesheets/mysite/homepage.css.sass */
+.site-container .contact .contact-subtitle {
+  font-size: 20px;
+  text-align: center;
+  color: #4b85cc;
+  font-family: "maven pro";
+  padding-bottom: 40px;
+  padding-top: 10px;
+}
+/* line 341, /Users/GrandsonBoom/Desktop/Brogrammer/mySite/app/assets/stylesheets/mysite/homepage.css.sass */
+.site-container .contact .contact-box {
+  font: 0;
+}
+/* line 344, /Users/GrandsonBoom/Desktop/Brogrammer/mySite/app/assets/stylesheets/mysite/homepage.css.sass */
+.site-container .contact .contact-box .map {
+  height: 306px;
+  display: inline-block;
+  width: 33.3%;
+  vertical-align: top;
+}
+/* line 350, /Users/GrandsonBoom/Desktop/Brogrammer/mySite/app/assets/stylesheets/mysite/homepage.css.sass */
+.site-container .contact .contact-box .thanks {
+  color: #fff;
+  font-size: 40px;
+  text-align: center;
+  font-family: "maven pro";
+  width: 60%;
+  padding: 90px 25px 0px 25px;
+  display: none;
+}
+/* line 359, /Users/GrandsonBoom/Desktop/Brogrammer/mySite/app/assets/stylesheets/mysite/homepage.css.sass */
+.site-container .contact .contact-box .form {
+  display: inline-block;
+  width: 66.6%;
+  vertical-align: top;
+}
+/* line 366, /Users/GrandsonBoom/Desktop/Brogrammer/mySite/app/assets/stylesheets/mysite/homepage.css.sass */
+.site-container .contact .contact-box .form .message.name-input, .site-container .contact .contact-box .form .message .email-input {
+  margin: 0px 20px 55px 20px;
+}
+/* line 369, /Users/GrandsonBoom/Desktop/Brogrammer/mySite/app/assets/stylesheets/mysite/homepage.css.sass */
+.site-container .contact .contact-box .form .message .left, .site-container .contact .contact-box .form .message .right {
+  display: inline-block;
+  width: 49%;
+  vertical-align: top;
+}
+/* line 376, /Users/GrandsonBoom/Desktop/Brogrammer/mySite/app/assets/stylesheets/mysite/homepage.css.sass */
+.site-container .contact .contact-box .form .message .left input {
+  width: 99%;
+  height: 60px;
+  background-color: transparent;
+  color: #fff;
+  border: solid #fff 2px;
+  font-size: 20px;
+  text-align: center;
+  font-family: "maven pro";
+}
+/* line 386, /Users/GrandsonBoom/Desktop/Brogrammer/mySite/app/assets/stylesheets/mysite/homepage.css.sass */
+.site-container .contact .contact-box .form .message .left input::-webkit-input-placeholder {
+  color: #fff;
+}
+/* line 389, /Users/GrandsonBoom/Desktop/Brogrammer/mySite/app/assets/stylesheets/mysite/homepage.css.sass */
+.site-container .contact .contact-box .form .message .left input::-moz-placeholder {
+  color: #fff;
+}
+/* line 392, /Users/GrandsonBoom/Desktop/Brogrammer/mySite/app/assets/stylesheets/mysite/homepage.css.sass */
+.site-container .contact .contact-box .form .message .left input:-ms-input-placeholder {
+  color: #fff;
+}
+/* line 395, /Users/GrandsonBoom/Desktop/Brogrammer/mySite/app/assets/stylesheets/mysite/homepage.css.sass */
+.site-container .contact .contact-box .form .message .left input:-moz-placeholder {
+  color: #fff;
+}
+/* line 398, /Users/GrandsonBoom/Desktop/Brogrammer/mySite/app/assets/stylesheets/mysite/homepage.css.sass */
+.site-container .contact .contact-box .form .message .right {
+  height: 100px;
+}
+/* line 401, /Users/GrandsonBoom/Desktop/Brogrammer/mySite/app/assets/stylesheets/mysite/homepage.css.sass */
+.site-container .contact .contact-box .form .message .right textarea {
+  background-color: transparent;
+  height: 300px;
+  width: 100%;
+  margin-bottom: 20px;
+  color: #fff;
+  border: solid #fff 2px;
+  font-size: 20px;
+  font-family: "maven pro";
+}
+/* line 411, /Users/GrandsonBoom/Desktop/Brogrammer/mySite/app/assets/stylesheets/mysite/homepage.css.sass */
+.site-container .contact .contact-box .form .message .right textarea::-webkit-input-placeholder {
+  color: #fff;
+  text-align: center;
+  padding-top: 120px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+/* line 418, /Users/GrandsonBoom/Desktop/Brogrammer/mySite/app/assets/stylesheets/mysite/homepage.css.sass */
+.site-container .contact .contact-box .form .message .right textarea::-moz-placeholder {
+  color: #fff;
+  text-align: center;
+  padding-top: 120px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+/* line 425, /Users/GrandsonBoom/Desktop/Brogrammer/mySite/app/assets/stylesheets/mysite/homepage.css.sass */
+.site-container .contact .contact-box .form .message .right textarea:-ms-input-placeholder {
+  color: #fff;
+  text-align: center;
+  padding-top: 120px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+/* line 432, /Users/GrandsonBoom/Desktop/Brogrammer/mySite/app/assets/stylesheets/mysite/homepage.css.sass */
+.site-container .contact .contact-box .form .message .right textarea:-moz-placeholder {
+  color: #fff;
+  text-align: center;
+  padding-top: 120px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+/* line 439, /Users/GrandsonBoom/Desktop/Brogrammer/mySite/app/assets/stylesheets/mysite/homepage.css.sass */
+.site-container .contact .contact-box .form .message .submit {
+  width: 44%;
+  margin-left: 20px;
+  border: solid #fff 2px;
+  height: 45px;
+  cursor: pointer;
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 15px;
+  font-family: "maven pro";
+  transition: 300ms;
+}
+/* line 452, /Users/GrandsonBoom/Desktop/Brogrammer/mySite/app/assets/stylesheets/mysite/homepage.css.sass */
+.site-container .contact .contact-box .form .message .submit:hover {
+  color: #E04444;
+  transition: 300ms;
+}
+/* line 456, /Users/GrandsonBoom/Desktop/Brogrammer/mySite/app/assets/stylesheets/mysite/homepage.css.sass */
+.site-container .contact .contact-box .form .message .error-message {
+  color: #E04444;
+  margin-left: 20px;
+  margin-top: 20px;
+  font-size: 20px;
+  font-family: "maven pro";
+  width: 44%;
+  text-align: center;
+  display: none;
+}
+/* line 466, /Users/GrandsonBoom/Desktop/Brogrammer/mySite/app/assets/stylesheets/mysite/homepage.css.sass */
+.site-container .contact .socials {
+  font-size: 0;
+  margin-top: 66px;
+}
+/* line 470, /Users/GrandsonBoom/Desktop/Brogrammer/mySite/app/assets/stylesheets/mysite/homepage.css.sass */
+.site-container .contact .socials .github, .site-container .contact .socials .twitter, .site-container .contact .socials .linkedin {
+  font-size: 60px;
+  color: #fff;
+  width: 33.3%;
+  height: 100px;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  vertical-align: top;
+}
+/* line 480, /Users/GrandsonBoom/Desktop/Brogrammer/mySite/app/assets/stylesheets/mysite/homepage.css.sass */
+.site-container .contact .socials .twitter {
+  background-color: #0084b4;
+  transition: 300ms;
+}
+/* line 484, /Users/GrandsonBoom/Desktop/Brogrammer/mySite/app/assets/stylesheets/mysite/homepage.css.sass */
+.site-container .contact .socials .twitter:hover {
+  background-color: #00a8e5;
+  transition: 300ms;
+}
+/* line 488, /Users/GrandsonBoom/Desktop/Brogrammer/mySite/app/assets/stylesheets/mysite/homepage.css.sass */
+.site-container .contact .socials .twitter i {
+  margin-top: 20px;
+}
+/* line 491, /Users/GrandsonBoom/Desktop/Brogrammer/mySite/app/assets/stylesheets/mysite/homepage.css.sass */
+.site-container .contact .socials .github {
+  background-color: #24292E;
+  transition: 300ms;
+}
+/* line 495, /Users/GrandsonBoom/Desktop/Brogrammer/mySite/app/assets/stylesheets/mysite/homepage.css.sass */
+.site-container .contact .socials .github:hover {
+  background-color: #3b4249;
+  transition: 300ms;
+}
+/* line 499, /Users/GrandsonBoom/Desktop/Brogrammer/mySite/app/assets/stylesheets/mysite/homepage.css.sass */
+.site-container .contact .socials .github i {
+  margin-top: 20px;
+}
+/* line 502, /Users/GrandsonBoom/Desktop/Brogrammer/mySite/app/assets/stylesheets/mysite/homepage.css.sass */
+.site-container .contact .socials .linkedin {
+  background-color: #4875B4;
+  transition: 300ms;
+}
+/* line 506, /Users/GrandsonBoom/Desktop/Brogrammer/mySite/app/assets/stylesheets/mysite/homepage.css.sass */
+.site-container .contact .socials .linkedin:hover {
+  background-color: #568cd8;
+  transition: 300ms;
+}
+/* line 510, /Users/GrandsonBoom/Desktop/Brogrammer/mySite/app/assets/stylesheets/mysite/homepage.css.sass */
+.site-container .contact .socials .linkedin i {
+  margin-top: 20px;
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
+  /* line 517, /Users/GrandsonBoom/Desktop/Brogrammer/mySite/app/assets/stylesheets/mysite/homepage.css.sass */
+  body {
+    margin: 0px;
+  }
+
+  /* line 520, /Users/GrandsonBoom/Desktop/Brogrammer/mySite/app/assets/stylesheets/mysite/homepage.css.sass */
+  .site-container {
+    font-size: 0;
+  }
+  /* line 523, /Users/GrandsonBoom/Desktop/Brogrammer/mySite/app/assets/stylesheets/mysite/homepage.css.sass */
+  .site-container .icon {
+    font-size: 80px;
+    text-align: center;
+    color: #fff;
+  }
+  /* line 528, /Users/GrandsonBoom/Desktop/Brogrammer/mySite/app/assets/stylesheets/mysite/homepage.css.sass */
+  .site-container .my-stuff-mobile, .site-container .about-me-mobile, .site-container .my-work-mobile, .site-container .contact-mobile {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  /* line 534, /Users/GrandsonBoom/Desktop/Brogrammer/mySite/app/assets/stylesheets/mysite/homepage.css.sass */
+  .site-container .my-stuff-mobile {
+    background-image: url(/assets/japan-64cca7649c5803d095598522dcce2586f884884c15ff02064d1015d9dfbd7a0b.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  /* line 542, /Users/GrandsonBoom/Desktop/Brogrammer/mySite/app/assets/stylesheets/mysite/homepage.css.sass */
+  .site-container .my-stuff-mobile .intro-message {
+    font-size: 90px;
+    color: #fff;
+    font-family: "Permanent Marker";
+    text-transform: capitalize;
+    text-align: center;
+    margin-top: 150px;
+  }
+  /* line 550, /Users/GrandsonBoom/Desktop/Brogrammer/mySite/app/assets/stylesheets/mysite/homepage.css.sass */
+  .site-container .my-stuff-mobile .menu-options {
+    color: #fff;
+    font-family: "montserrat";
+    margin: 0 auto;
+    margin-top: 420px;
+    font-weight: bold;
+    width: 80%;
+    border-radius: 10px;
+  }
+  /* line 559, /Users/GrandsonBoom/Desktop/Brogrammer/mySite/app/assets/stylesheets/mysite/homepage.css.sass */
+  .site-container .my-stuff-mobile .menu-options .about-mobile, .site-container .my-stuff-mobile .menu-options .projects-mobile, .site-container .my-stuff-mobile .menu-options .contact-me-mobile {
+    cursor: pointer;
+    font-size: 150px;
+    border: solid #007E7E 4px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    padding: 15px;
+    transition: 300ms;
+    background-color: rgba(0, 126, 126, 0.2);
+  }
+  /* line 571, /Users/GrandsonBoom/Desktop/Brogrammer/mySite/app/assets/stylesheets/mysite/homepage.css.sass */
+  .site-container .about-me-mobile {
+    background-image: url(/assets/bubble-green-917a8edd1a996b5f8f2cce289159d4cc55187f8fbfa421d16da353e7ea30725a.png);
+    background-position: bottom;
+    background-size: cover;
+    color: white;
+  }
+  /* line 577, /Users/GrandsonBoom/Desktop/Brogrammer/mySite/app/assets/stylesheets/mysite/homepage.css.sass */
+  .site-container .about-me-mobile .about-me-title {
+    font-family: "montserrat";
+    font-size: 80px;
+    text-align: center;
+    letter-spacing: 1px;
+    font-weight: bold;
+  }
+  /* line 584, /Users/GrandsonBoom/Desktop/Brogrammer/mySite/app/assets/stylesheets/mysite/homepage.css.sass */
+  .site-container .about-me-mobile .about-me-subtitle {
+    font-size: 15px;
+    text-align: center;
+    color: #aaeded;
+    font-family: "maven pro";
+    padding-bottom: 80px;
+    padding-top: 10px;
+  }
+  /* line 594, /Users/GrandsonBoom/Desktop/Brogrammer/mySite/app/assets/stylesheets/mysite/homepage.css.sass */
+  .site-container .about-me-mobile .my-info .handsome {
+    background-image: url("goodlookin.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 50%;
+    height: 350px;
+    border-radius: 10px;
+    margin: 0 auto;
+  }
+  /* line 603, /Users/GrandsonBoom/Desktop/Brogrammer/mySite/app/assets/stylesheets/mysite/homepage.css.sass */
+  .site-container .about-me-mobile .my-info .speech {
+    position: relative;
+    padding: 20px;
+    text-align: center;
+    line-height: 50px;
+    background-color: #fff;
+    border: 8px solid #007E7E;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    -webkit-box-shadow: 2px 2px 4px #006363;
+    -moz-box-shadow: 2px 2px 4px #006363;
+    box-shadow: 2px 2px 4px #006363;
+  }
+  /* line 617, /Users/GrandsonBoom/Desktop/Brogrammer/mySite/app/assets/stylesheets/mysite/homepage.css.sass */
+  .site-container .about-me-mobile .my-info .speech::before {
+    content: " ";
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: 105px;
+    top: 544px;
+    border: 45px solid;
+    border-color: #007E7E transparent transparent transparent;
+  }
+  /* line 627, /Users/GrandsonBoom/Desktop/Brogrammer/mySite/app/assets/stylesheets/mysite/homepage.css.sass */
+  .site-container .about-me-mobile .my-info .speech::after {
+    content: " ";
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: 116px;
+    top: 534px;
+    border: 35px solid;
+    border-color: #fff transparent transparent transparent;
+  }
+  /* line 637, /Users/GrandsonBoom/Desktop/Brogrammer/mySite/app/assets/stylesheets/mysite/homepage.css.sass */
+  .site-container .about-me-mobile .my-info .about-me-text {
+    font-size: 18px;
+    font-family: "maven pro";
+    text-align: center;
+    color: black;
+  }
+  /* line 643, /Users/GrandsonBoom/Desktop/Brogrammer/mySite/app/assets/stylesheets/mysite/homepage.css.sass */
+  .site-container .about-me-mobile .my-info .about-me-title {
+    font-size: 30px;
+    text-align: center;
+  }
+  /* line 647, /Users/GrandsonBoom/Desktop/Brogrammer/mySite/app/assets/stylesheets/mysite/homepage.css.sass */
+  .site-container .about-me-mobile .my-info .about-me-icons {
+    font-size: 0;
+    margin-top: 30px;
+  }
+  /* line 651, /Users/GrandsonBoom/Desktop/Brogrammer/mySite/app/assets/stylesheets/mysite/homepage.css.sass */
+  .site-container .about-me-mobile .my-info .about-me-icons .emoji {
+    margin-top: 90px;
+  }
+  /* line 654, /Users/GrandsonBoom/Desktop/Brogrammer/mySite/app/assets/stylesheets/mysite/homepage.css.sass */
+  .site-container .about-me-mobile .my-info .about-me-icons .globe, .site-container .about-me-mobile .my-info .about-me-icons .spartan {
+    margin-top: 60px;
+  }
+  /* line 659, /Users/GrandsonBoom/Desktop/Brogrammer/mySite/app/assets/stylesheets/mysite/homepage.css.sass */
+  .site-container .about-me-mobile .my-info .about-me-icons .emoji .icon-image, .site-container .about-me-mobile .my-info .about-me-icons .globe .icon-image, .site-container .about-me-mobile .my-info .about-me-icons .spartan .icon-image {
+    display: inline-block;
+    width: 35%;
+    text-align: center;
+    vertical-align: top;
+  }
+  /* line 665, /Users/GrandsonBoom/Desktop/Brogrammer/mySite/app/assets/stylesheets/mysite/homepage.css.sass */
+  .site-container .about-me-mobile .my-info .about-me-icons .emoji .icon-image img, .site-container .about-me-mobile .my-info .about-me-icons .globe .icon-image img, .site-container .about-me-mobile .my-info .about-me-icons .spartan .icon-image img {
+    height: 240px;
+  }
+  /* line 668, /Users/GrandsonBoom/Desktop/Brogrammer/mySite/app/assets/stylesheets/mysite/homepage.css.sass */
+  .site-container .about-me-mobile .my-info .about-me-icons .emoji .icon-info, .site-container .about-me-mobile .my-info .about-me-icons .globe .icon-info, .site-container .about-me-mobile .my-info .about-me-icons .spartan .icon-info {
+    display: inline-block;
+    width: 65%;
+  }
+  /* line 672, /Users/GrandsonBoom/Desktop/Brogrammer/mySite/app/assets/stylesheets/mysite/homepage.css.sass */
+  .site-container .about-me-mobile .my-info .about-me-icons .emoji .icon-info .icon-title, .site-container .about-me-mobile .my-info .about-me-icons .globe .icon-info .icon-title, .site-container .about-me-mobile .my-info .about-me-icons .spartan .icon-info .icon-title {
+    padding: 5px;
+    font-size: 50px;
+    font-family: "montserrat";
+    text-align: center;
+  }
+  /* line 678, /Users/GrandsonBoom/Desktop/Brogrammer/mySite/app/assets/stylesheets/mysite/homepage.css.sass */
+  .site-container .about-me-mobile .my-info .about-me-icons .emoji .icon-info .icon-text, .site-container .about-me-mobile .my-info .about-me-icons .globe .icon-info .icon-text, .site-container .about-me-mobile .my-info .about-me-icons .spartan .icon-info .icon-text {
+    padding: 5px;
+    font-size: 35px;
+    font-family: "maven pro";
+    letter-spacing: 1px;
+    line-height: 40px;
+    text-align: center;
+  }
+  /* line 686, /Users/GrandsonBoom/Desktop/Brogrammer/mySite/app/assets/stylesheets/mysite/homepage.css.sass */
+  .site-container .my-work-mobile {
+    background-image: url(/assets/black-29a54959ebdeab415931b78ea5db730e822900b08b17b813efaaed3ac3676950.jpg);
+  }
+  /* line 690, /Users/GrandsonBoom/Desktop/Brogrammer/mySite/app/assets/stylesheets/mysite/homepage.css.sass */
+  .site-container .my-work-mobile .my-projects-title-mobile {
+    font-family: "montserrat";
+    font-size: 80px;
+    text-align: center;
+    letter-spacing: 1px;
+    font-weight: bold;
+    color: #fff;
+  }
+  /* line 698, /Users/GrandsonBoom/Desktop/Brogrammer/mySite/app/assets/stylesheets/mysite/homepage.css.sass */
+  .site-container .my-work-mobile .my-projects-subtitle-mobile {
+    font-size: 15px;
+    text-align: center;
+    color: #878787;
+    font-family: "maven pro";
+    padding-bottom: 80px;
+    padding-top: 10px;
+  }
+  /* line 706, /Users/GrandsonBoom/Desktop/Brogrammer/mySite/app/assets/stylesheets/mysite/homepage.css.sass */
+  .site-container .my-work-mobile .skills {
+    text-align: center;
+    font-size: 60px;
+    margin: 0 auto;
+  }
+  /* line 711, /Users/GrandsonBoom/Desktop/Brogrammer/mySite/app/assets/stylesheets/mysite/homepage.css.sass */
+  .site-container .my-work-mobile .skills span:nth-child(even) {
+    transition: 300ms;
+    margin: 2%;
+    color: #fff;
+  }
+  /* line 716, /Users/GrandsonBoom/Desktop/Brogrammer/mySite/app/assets/stylesheets/mysite/homepage.css.sass */
+  .site-container .my-work-mobile .skills span:nth-child(even):hover {
+    font-size: 30px;
+    transition: 300ms;
+  }
+  /* line 720, /Users/GrandsonBoom/Desktop/Brogrammer/mySite/app/assets/stylesheets/mysite/homepage.css.sass */
+  .site-container .my-work-mobile .skills span:nth-child(odd) {
+    transition: 300ms;
+    color: #E04444;
+    margin: 2%;
+  }
+  /* line 725, /Users/GrandsonBoom/Desktop/Brogrammer/mySite/app/assets/stylesheets/mysite/homepage.css.sass */
+  .site-container .my-work-mobile .skills span:nth-child(odd):hover {
+    font-size: 30px;
+    transition: 300ms;
+  }
+  /* line 729, /Users/GrandsonBoom/Desktop/Brogrammer/mySite/app/assets/stylesheets/mysite/homepage.css.sass */
+  .site-container .my-work-mobile .my-projects {
+    text-align: center;
+  }
+  /* line 732, /Users/GrandsonBoom/Desktop/Brogrammer/mySite/app/assets/stylesheets/mysite/homepage.css.sass */
+  .site-container .my-work-mobile .my-projects .project {
+    height: 230px;
+    width: 47.5%;
+    display: inline-block;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: solid #222 1px;
+    cursor: pointer;
+    vertical-align: top;
+    font-size: 12px;
+    color: #fff;
+    text-align: center;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: #E04444;
+  }
+  /* line 748, /Users/GrandsonBoom/Desktop/Brogrammer/mySite/app/assets/stylesheets/mysite/homepage.css.sass */
+  .site-container .my-work-mobile .my-projects .project .project-info {
+    height: 160px;
+  }
+  /* line 751, /Users/GrandsonBoom/Desktop/Brogrammer/mySite/app/assets/stylesheets/mysite/homepage.css.sass */
+  .site-container .my-work-mobile .my-projects .project .project-info .project-title {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 50px;
+    font-family: "montserrat";
+    background-color: #fff;
+    color: #E04444;
+    margin-top: 60px;
+  }
+  /* line 760, /Users/GrandsonBoom/Desktop/Brogrammer/mySite/app/assets/stylesheets/mysite/homepage.css.sass */
+  .site-container .my-work-mobile .my-projects .project .project-description {
+    height: 42px;
+    font-size: 16px;
+    font-family: "maven pro";
+    color: #E04444;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 0px 0px 5px 5px;
+  }
+  /* line 769, /Users/GrandsonBoom/Desktop/Brogrammer/mySite/app/assets/stylesheets/mysite/homepage.css.sass */
+  .site-container .contact-mobile {
+    background-image: url(/assets/bubble-blue-ab04c703e8ef847462dc52431283445809f6951f5aa4beb7e5f4320d3e1102dc.png);
+    background-position: bottom;
+    background-size: cover;
+    padding-bottom: 0px;
+  }
+  /* line 775, /Users/GrandsonBoom/Desktop/Brogrammer/mySite/app/assets/stylesheets/mysite/homepage.css.sass */
+  .site-container .contact-mobile .contact-title {
+    font-family: "montserrat";
+    font-size: 80px;
+    text-align: center;
+    letter-spacing: 1px;
+    font-weight: bold;
+    color: #fff;
+  }
+  /* line 783, /Users/GrandsonBoom/Desktop/Brogrammer/mySite/app/assets/stylesheets/mysite/homepage.css.sass */
+  .site-container .contact-mobile .contact-subtitle {
+    font-size: 15px;
+    text-align: center;
+    color: #4b85cc;
+    font-family: "maven pro";
+    padding-bottom: 80px;
+    padding-top: 10px;
+  }
+  /* line 791, /Users/GrandsonBoom/Desktop/Brogrammer/mySite/app/assets/stylesheets/mysite/homepage.css.sass */
+  .site-container .contact-mobile .contact-box {
+    font: 0;
+  }
+  /* line 794, /Users/GrandsonBoom/Desktop/Brogrammer/mySite/app/assets/stylesheets/mysite/homepage.css.sass */
+  .site-container .contact-mobile .contact-box .map {
+    height: 306px;
+    display: inline-block;
+    width: 33.3%;
+    vertical-align: top;
+  }
+  /* line 800, /Users/GrandsonBoom/Desktop/Brogrammer/mySite/app/assets/stylesheets/mysite/homepage.css.sass */
+  .site-container .contact-mobile .contact-box .thanks-mobile {
+    color: #fff;
+    font-size: 40px;
+    text-align: center;
+    font-family: "maven pro";
+    width: 100%;
+    padding: 90px 25px 0px 25px;
+    display: none;
+  }
+  /* line 813, /Users/GrandsonBoom/Desktop/Brogrammer/mySite/app/assets/stylesheets/mysite/homepage.css.sass */
+  .site-container .contact-mobile .contact-box .form-mobile .message.name-input, .site-container .contact-mobile .contact-box .form-mobile .message .email-input {
+    margin: 0px 20px 55px 0px;
+  }
+  /* line 816, /Users/GrandsonBoom/Desktop/Brogrammer/mySite/app/assets/stylesheets/mysite/homepage.css.sass */
+  .site-container .contact-mobile .contact-box .form-mobile .message .left, .site-container .contact-mobile .contact-box .form-mobile .message .right {
+    display: inline-block;
+    width: 49%;
+    vertical-align: top;
+  }
+  /* line 821, /Users/GrandsonBoom/Desktop/Brogrammer/mySite/app/assets/stylesheets/mysite/homepage.css.sass */
+  .site-container .contact-mobile .contact-box .form-mobile .message .left {
+    height: 235px;
+  }
+  /* line 824, /Users/GrandsonBoom/Desktop/Brogrammer/mySite/app/assets/stylesheets/mysite/homepage.css.sass */
+  .site-container .contact-mobile .contact-box .form-mobile .message .left input {
+    width: 99%;
+    height: 60px;
+    background-color: transparent;
+    color: #fff;
+    border: solid #fff 2px;
+    font-size: 40px;
+    text-align: center;
+    font-family: "maven pro";
+  }
+  /* line 834, /Users/GrandsonBoom/Desktop/Brogrammer/mySite/app/assets/stylesheets/mysite/homepage.css.sass */
+  .site-container .contact-mobile .contact-box .form-mobile .message .left input::-webkit-input-placeholder {
+    color: #fff;
+  }
+  /* line 837, /Users/GrandsonBoom/Desktop/Brogrammer/mySite/app/assets/stylesheets/mysite/homepage.css.sass */
+  .site-container .contact-mobile .contact-box .form-mobile .message .left input::-moz-placeholder {
+    color: #fff;
+  }
+  /* line 840, /Users/GrandsonBoom/Desktop/Brogrammer/mySite/app/assets/stylesheets/mysite/homepage.css.sass */
+  .site-container .contact-mobile .contact-box .form-mobile .message .left input:-ms-input-placeholder {
+    color: #fff;
+  }
+  /* line 843, /Users/GrandsonBoom/Desktop/Brogrammer/mySite/app/assets/stylesheets/mysite/homepage.css.sass */
+  .site-container .contact-mobile .contact-box .form-mobile .message .left input:-moz-placeholder {
+    color: #fff;
+  }
+  /* line 846, /Users/GrandsonBoom/Desktop/Brogrammer/mySite/app/assets/stylesheets/mysite/homepage.css.sass */
+  .site-container .contact-mobile .contact-box .form-mobile .message .right {
+    height: 100px;
+  }
+  /* line 849, /Users/GrandsonBoom/Desktop/Brogrammer/mySite/app/assets/stylesheets/mysite/homepage.css.sass */
+  .site-container .contact-mobile .contact-box .form-mobile .message .right textarea {
+    background-color: transparent;
+    height: 300px;
+    width: 100%;
+    margin-bottom: 20px;
+    color: #fff;
+    border: solid #fff 2px;
+    font-size: 40px;
+    font-family: "maven pro";
+  }
+  /* line 859, /Users/GrandsonBoom/Desktop/Brogrammer/mySite/app/assets/stylesheets/mysite/homepage.css.sass */
+  .site-container .contact-mobile .contact-box .form-mobile .message .right textarea::-webkit-input-placeholder {
+    color: #fff;
+    text-align: center;
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  /* line 866, /Users/GrandsonBoom/Desktop/Brogrammer/mySite/app/assets/stylesheets/mysite/homepage.css.sass */
+  .site-container .contact-mobile .contact-box .form-mobile .message .right textarea::-moz-placeholder {
+    color: #fff;
+    text-align: center;
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  /* line 873, /Users/GrandsonBoom/Desktop/Brogrammer/mySite/app/assets/stylesheets/mysite/homepage.css.sass */
+  .site-container .contact-mobile .contact-box .form-mobile .message .right textarea:-ms-input-placeholder {
+    color: #fff;
+    text-align: center;
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  /* line 880, /Users/GrandsonBoom/Desktop/Brogrammer/mySite/app/assets/stylesheets/mysite/homepage.css.sass */
+  .site-container .contact-mobile .contact-box .form-mobile .message .right textarea:-moz-placeholder {
+    color: #fff;
+    text-align: center;
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  /* line 887, /Users/GrandsonBoom/Desktop/Brogrammer/mySite/app/assets/stylesheets/mysite/homepage.css.sass */
+  .site-container .contact-mobile .contact-box .form-mobile .message .submit {
+    width: 46.6%;
+    border: solid #fff 2px;
+    height: 47px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: "maven pro";
+    transition: 300ms;
+  }
+  /* line 900, /Users/GrandsonBoom/Desktop/Brogrammer/mySite/app/assets/stylesheets/mysite/homepage.css.sass */
+  .site-container .contact-mobile .contact-box .form-mobile .message .error-message {
+    color: #E04444;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: "maven pro";
+    text-align: center;
+    display: none;
+  }
+  /* line 909, /Users/GrandsonBoom/Desktop/Brogrammer/mySite/app/assets/stylesheets/mysite/homepage.css.sass */
+  .site-container .contact-mobile .socials {
+    font-size: 0;
+    margin-top: 80px;
+    margin-left: -40px;
+    width: 109%;
+  }
+  /* line 915, /Users/GrandsonBoom/Desktop/Brogrammer/mySite/app/assets/stylesheets/mysite/homepage.css.sass */
+  .site-container .contact-mobile .socials .github, .site-container .contact-mobile .socials .twitter, .site-container .contact-mobile .socials .linkedin {
+    font-size: 90px;
+    color: #fff;
+    width: 33.3%;
+    height: 130px;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    vertical-align: top;
+  }
+  /* line 925, /Users/GrandsonBoom/Desktop/Brogrammer/mySite/app/assets/stylesheets/mysite/homepage.css.sass */
+  .site-container .contact-mobile .socials .twitter {
+    background-color: #0084b4;
+    transition: 300ms;
+  }
+  /* line 929, /Users/GrandsonBoom/Desktop/Brogrammer/mySite/app/assets/stylesheets/mysite/homepage.css.sass */
+  .site-container .contact-mobile .socials .twitter i {
+    margin-top: 20px;
+  }
+  /* line 932, /Users/GrandsonBoom/Desktop/Brogrammer/mySite/app/assets/stylesheets/mysite/homepage.css.sass */
+  .site-container .contact-mobile .socials .github {
+    background-color: #24292E;
+    transition: 300ms;
+  }
+  /* line 936, /Users/GrandsonBoom/Desktop/Brogrammer/mySite/app/assets/stylesheets/mysite/homepage.css.sass */
+  .site-container .contact-mobile .socials .github i {
+    margin-top: 20px;
+  }
+  /* line 939, /Users/GrandsonBoom/Desktop/Brogrammer/mySite/app/assets/stylesheets/mysite/homepage.css.sass */
+  .site-container .contact-mobile .socials .linkedin {
+    background-color: #4875B4;
+    transition: 300ms;
+  }
+  /* line 943, /Users/GrandsonBoom/Desktop/Brogrammer/mySite/app/assets/stylesheets/mysite/homepage.css.sass */
+  .site-container .contact-mobile .socials .linkedin i {
+    margin-top: 20px;
+  }
+}
