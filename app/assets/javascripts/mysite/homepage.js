@@ -40,13 +40,13 @@ $(function(){
 
 $(function(){
   $('.about-mobile').click(function(){
-    $('html,body').animate({scrollTop: 1744},'slow')
+    $('html,body').animate({scrollTop: 1607},'slow')
   })
   $('.projects-mobile').click(function(){
-    $('html,body').animate({scrollTop: 3777},'slow')
+    $('html,body').animate({scrollTop: 3763},'slow')
   })
   $('.contact-me-mobile').click(function(){
-    $('html,body').animate({scrollTop: 4780},'slow')
+    $('html,body').animate({scrollTop: 5575},'slow')
   })
 })
 
@@ -71,6 +71,6 @@ function initMap() {
   });
 }
 
-// $(window).scroll(function(){
-//   console.log($(window).scrollTop())
-// })
+$(window).scroll(function(){
+  console.log($(window).scrollTop())
+})
