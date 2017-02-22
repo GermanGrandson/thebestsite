@@ -43,10 +43,10 @@ $(function(){
     $('html,body').animate({scrollTop: 1607},'slow')
   })
   $('.projects-mobile').click(function(){
-    $('html,body').animate({scrollTop: 3763},'slow')
+    $('html,body').animate({scrollTop: 3563},'slow')
   })
   $('.contact-me-mobile').click(function(){
-    $('html,body').animate({scrollTop: 5575},'slow')
+    $('html,body').animate({scrollTop: 5375},'slow')
   })
 })
 
