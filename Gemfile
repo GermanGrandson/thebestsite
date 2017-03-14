@@ -31,6 +31,8 @@ gem 'letter_opener', '~> 1.4', '>= 1.4.1'
 
 gem 'pry', '~> 0.10.4'
 
+gem "figaro"
+
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
